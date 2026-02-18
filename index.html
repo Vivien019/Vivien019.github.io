@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,
+  initial-scale=1.0">
+  <title>YFGY – Your Fitness Gym</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="script.js"></script>
+
+
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">YFGY</div>
+    <div class="hamburger" id="hamburger">
+      ☰
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Főoldal</a></li>
+
+      <li class="dropdown">
+        <a href="szolgaltatasok.html">Szolgáltatások <span class="arrow">▼</span></a>
+        <div class="dropdown-content">
+          <a href="szolgaltatasok.html#pilates">Pilates</a>
+          <a href="szolgaltatasok.html#aerobik">Aerobik</a>
+          <a href="szolgaltatasok.html#szemelyi">Személyi edzés</a>
+        </div>
+      </li>
+
+      <li><a href="edzok.html">Edzők</a></li>
+      <li><a href="arak.html">Árlista</a></li>
+    </ul>
+  </nav>
+
+
+
+
+  <section class="hero">
+
+    <div class="slider">
+      <div class="slides">
+        <img src="img/kondikep1.jpg" class="slide active">
+        <img src="img/kondikep3.jpg" class="slide">
+        <img src="img/kondikep4.jpg" class="slide">
+      </div>
+
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+
+    <div class="card">
+      <h1>Your Fitness Gym</h1>
+      <p>Modern edzőterem Székesfehérvár szívében.</p>
+      <p>Erő, állóképesség, forma – mind egy helyen.</p>
+    </div>
+  </section>
+
+  <div class="scroll-down" onclick="window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })">
+    Görgess le ↓
+  </div>
+
+
+  <div class="card">
+    <h2>Hol találsz minket?</h2>
+    <iframe src="https://www.google.com/maps?q=Székesfehérvár,Királysor 8&output=embed" width="100%"
+      height="300"></iframe>
+  </div>
+
+  <footer>
+    <p>Email: info@yfgy.hu | kapcsolat@yfgy.hu</p>
+    <p>Telefon: +36 30 123 4567 | +36 70 987 6543</p>
+  </footer>
+
+</body>
+
+</html>
